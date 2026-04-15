@@ -15,5 +15,9 @@ logging.basicConfig(
     format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s"
 )
 
-if __name__ == "__main__":
-    logging.info("here again i am testing")
+logger = logging.getLogger("ai-assistant")
+
+#Now you can log using
+# logger.info("")
+# logger.error("")
+# logger.warning("") and so on.
